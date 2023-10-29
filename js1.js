@@ -16,3 +16,6 @@ console.log(newline)
 
 const bigmouth = 'I\'ve got no right to take my place…';
 console.log(bigmouth);
+
+const tryfor47ata= `ana "ba47at" contribution 3ala github :)`
+console.log(tryfor47ata)
