@@ -1,11 +1,3 @@
-const name = 'amr'
-//doesnot embed
-const try1 = 'i am ${name}'
-console.log(try1)
-//also doesnot embed
-const try2 = "i am ${name}"
-console.log(try2)
-
 const name1 = "amr";
 const try3 = `i am ${name1}`;
 console.log(try3);
@@ -17,5 +9,21 @@ console.log(newline)
 const bigmouth = 'I\'ve got no right to take my place…';
 console.log(bigmouth);
 
-const tryfor47ata= `ana "ba47at" contribution 3ala github :)`
-console.log(tryfor47ata)
+function add7(num){
+    ans = num +7 ;
+    return ans;
+}
+console.log(add7(5))
+
+let multiply = (a,b) => a*b;
+console.log(multiply(2,4))
+
+function capitalize(word){
+    let firstletter = word.slice(0,1)
+    let FLcap = firstletter.toUpperCase()
+    let rest = word.slice(1,word.length)
+    let result = FLcap.concat(rest);
+    return result;
+}
+console.log(capitalize('amrhiesham'))
+
